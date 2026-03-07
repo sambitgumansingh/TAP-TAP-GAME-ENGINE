@@ -1,0 +1,28 @@
+{
+  "id": "sudoku",
+  "title": "Sudoku Lite",
+  "type": "grid",
+  "timeLimit": 120,
+  "scoring": {
+    "correct": 10,
+    "wrong": -2
+  },
+  "description": "Fill the grid so every row has numbers 1 to 4",
+  "levels": [
+    {
+      "level": 1,
+      "grid": [
+        [1, 0, 3, 0],
+        [0, 3, 0, 2],
+        [3, 0, 2, 0],
+        [0, 1, 0, 3]
+      ],
+      "solution": [
+        [1, 2, 3, 4],
+        [4, 3, 1, 2],
+        [3, 4, 2, 1],
+        [2, 1, 4, 3]
+      ]
+    }
+  ]
+}

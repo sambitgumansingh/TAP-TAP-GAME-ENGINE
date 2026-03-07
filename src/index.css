@@ -1,0 +1,4 @@
+/* stylelint-disable-next-line no-unknown-at-rules */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

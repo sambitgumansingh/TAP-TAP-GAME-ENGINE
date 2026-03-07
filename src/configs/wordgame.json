@@ -1,0 +1,31 @@
+{
+  "id": "wordgame",
+  "title": "Word Builder",
+  "type": "word",
+  "timeLimit": 60,
+  "scoring": {
+    "correct": 15,
+    "wrong": -5
+  },
+  "description": "Unscramble the word before time runs out",
+  "levels": [
+    {
+      "level": 1,
+      "scrambled": "EATC",
+      "answer": "CATE",
+      "hint": "A name"
+    },
+    {
+      "level": 2,
+      "scrambled": "ODCR",
+      "answer": "CORD",
+      "hint": "A type of wire"
+    },
+    {
+      "level": 3,
+      "scrambled": "ALPP",
+      "answer": "PALP",
+      "hint": "To touch gently"
+    }
+  ]
+}
