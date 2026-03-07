@@ -11,21 +11,21 @@
   "levels": [
     {
       "level": 1,
-      "scrambled": "EATC",
-      "answer": "CATE",
-      "hint": "A name"
+      "scrambled": "CIPFIOCA",
+      "answer": "PACIFIC",
+      "hint": "A large ocean"
     },
     {
       "level": 2,
-      "scrambled": "ODCR",
-      "answer": "CORD",
-      "hint": "A type of wire"
+      "scrambled": "WOBEL",
+      "answer": "BELOW ",
+      "hint": "Opposite of above"
     },
     {
       "level": 3,
-      "scrambled": "ALPP",
-      "answer": "PALP",
-      "hint": "To touch gently"
+      "scrambled": "CRETICK",
+      "answer": "CRICKET",
+      "hint": "A popular sport in many countries"
     }
   ]
 }

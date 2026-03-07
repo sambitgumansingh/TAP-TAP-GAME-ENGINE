@@ -54,7 +54,8 @@ function HomeScreen({ onPlay, onLeaderboard }) {
 
       {/* Footer */}
       <p className="text-gray-600 text-xs absolute bottom-6">
-        Powered by TapTap Engine • Built for India
+         Built by Team Coders Creed • TapTap Hackathon 2026
+
       </p>
 
     </div>
