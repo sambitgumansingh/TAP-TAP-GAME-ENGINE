@@ -1,0 +1,23 @@
+{
+  "id": "mathblitz",
+  "title": "Math Blitz",
+  "type": "math",
+  "timeLimit": 60,
+  "scoring": {
+    "correct": 20,
+    "wrong": -5
+  },
+  "description": "Solve the equations before time runs out!",
+  "levels": [
+    { "level": 1, "question": "5 + 3 = ?", "answer": 8, "hint": "Addition" },
+    { "level": 2, "question": "12 - 4 = ?", "answer": 8, "hint": "Subtraction" },
+    { "level": 3, "question": "6 × 3 = ?", "answer": 18, "hint": "Multiplication" },
+    { "level": 4, "question": "20 ÷ 4 = ?", "answer": 5, "hint": "Division" },
+    { "level": 5, "question": "7 + 8 = ?", "answer": 15, "hint": "Addition" },
+    { "level": 6, "question": "15 - 6 = ?", "answer": 9, "hint": "Subtraction" },
+    { "level": 7, "question": "4 × 4 = ?", "answer": 16, "hint": "Multiplication" },
+    { "level": 8, "question": "36 ÷ 6 = ?", "answer": 6, "hint": "Division" },
+    { "level": 9, "question": "9 + 7 = ?", "answer": 16, "hint": "Addition" },
+    { "level": 10, "question": "8 × 7 = ?", "answer": 56, "hint": "Multiplication" }
+  ]
+}

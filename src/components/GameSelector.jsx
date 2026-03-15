@@ -1,7 +1,10 @@
 import sudokuConfig from "../configs/sudoku.json"
 import wordConfig from "../configs/wordgame.json"
+import mathConfig from "../configs/mathblitz.json"
+import memoryConfig from "../configs/memorymatch.json"
 
-const allGames = [sudokuConfig, wordConfig]
+
+const allGames = [sudokuConfig, wordConfig, mathConfig, memoryConfig]
 
 function GameSelector({ onSelectGame, onViewLeaderboard, onBack }) {
   return (
@@ -22,7 +25,7 @@ function GameSelector({ onSelectGame, onViewLeaderboard, onBack }) {
             className="bg-gray-800 hover:bg-purple-700 cursor-pointer rounded-2xl p-6 w-52 text-center transition-all duration-200 border border-gray-700 hover:border-purple-400 hover:scale-105"
           >
             <div className="text-4xl mb-3">
-              {game.type === "grid" ? "🧩" : "📝"}
+            {game.type === "grid" ? "🧩" : game.type === "word" ? "📝" : game.type === "math" ? "🔢" : "🃏"}
             </div>
             <h2 className="text-xl font-bold mb-2">{game.title}</h2>
             <p className="text-gray-400 text-sm mb-4">{game.description}</p>
